@@ -6,7 +6,7 @@ app.use(router)
 app.set('view engine', 'pug')
 
 app.get('/', (req, res) => {
-  res.render('index', { message: 'Hello !!!' })
+  res.render('index', { message: 'Hello' })
 })
 
 module.exports = app
